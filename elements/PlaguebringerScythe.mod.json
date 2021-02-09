@@ -1,0 +1,33 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pbscythe",
+    "customModelName": "Normal",
+    "name": "Plaguebringer Scythe",
+    "specialInfo": [
+      "A dark weapon that seems to whisper death and draw in light",
+      "Some say it is the scythe of Death himself."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GooglyMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 2.3000000000000003,
+    "enchantability": 17,
+    "damageVsEntity": 12.0,
+    "usageCount": 99000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "PlaguebringerProcedure"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "googlymod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "googlymod:ruby"
+    },
+    "1": {
+      "item": "googlymod:ruby"
+    },
+    "2": {
+      "item": "googlymod:ruby"
+    },
+    "3": {
+      "item": "googlymod:ruby"
+    },
+    "4": {
+      "item": "googlymod:ruby"
+    },
+    "5": {
+      "item": "googlymod:ruby"
+    },
+    "6": {
+      "item": "googlymod:ruby"
+    },
+    "7": {
+      "item": "googlymod:ruby"
+    },
+    "8": {
+      "item": "googlymod:ruby"
+    }
+  },
+  "result": {
+    "item": "googlymod:ruby_block",
+    "count": 1
+  }
+}

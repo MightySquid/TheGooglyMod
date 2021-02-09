@@ -1,0 +1,13 @@
+{
+  "group": "googlymod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "googlymod:googlesh_block"
+    }
+  ],
+  "result": {
+    "item": "googlymod:googlesh",
+    "count": 9
+  }
+}

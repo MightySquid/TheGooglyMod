@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "googlymod:blocks/darkrubyblock",
+    "particle": "googlymod:blocks/darkrubyblock"
+  }
+}

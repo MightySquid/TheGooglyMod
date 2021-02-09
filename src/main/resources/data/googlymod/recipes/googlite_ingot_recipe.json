@@ -1,0 +1,42 @@
+{
+  "group": "googlymod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "googlymod:googlesh"
+    },
+    "1": {
+      "item": "googlymod:googlesh"
+    },
+    "2": {
+      "item": "googlymod:googlesh"
+    },
+    "3": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "6": {
+      "item": "googlymod:googlesh"
+    },
+    "7": {
+      "item": "googlymod:googlesh"
+    },
+    "8": {
+      "item": "googlymod:googlesh"
+    }
+  },
+  "result": {
+    "item": "googlymod:googlite_ingot",
+    "count": 1
+  }
+}

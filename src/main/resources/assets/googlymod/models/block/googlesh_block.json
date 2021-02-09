@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "googlymod:blocks/googleshblock",
+    "up": "googlymod:blocks/googleshblock",
+    "north": "googlymod:blocks/googleshblock",
+    "east": "googlymod:blocks/googleshblock",
+    "south": "googlymod:blocks/googleshblock",
+    "west": "googlymod:blocks/googleshblock",
+    "particle": "googlymod:blocks/googleshblock"
+  }
+}

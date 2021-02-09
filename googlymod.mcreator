@@ -1,0 +1,778 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Googlesh",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlesh"
+    },
+    {
+      "name": "GoogliteIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_ingot"
+    },
+    {
+      "name": "GoogliteOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_ore"
+    },
+    {
+      "name": "GoogliteBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_block"
+    },
+    {
+      "name": "GoogliteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_ore_block_recipe"
+    },
+    {
+      "name": "GoogliteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_block_ore_recipe"
+    },
+    {
+      "name": "GooglitePickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_pickaxe"
+    },
+    {
+      "name": "GoogliteAxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_axe"
+    },
+    {
+      "name": "GoogliteSword",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_sword"
+    },
+    {
+      "name": "GoogliteShovel",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_shovel"
+    },
+    {
+      "name": "GoogliteHoe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_hoe"
+    },
+    {
+      "name": "GooglitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_pickaxe_recipe"
+    },
+    {
+      "name": "GoogliteAxeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_axe_recipe"
+    },
+    {
+      "name": "GoogliteSwordRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_sword_recipe"
+    },
+    {
+      "name": "GoogliteShovelRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_shovel_recipe"
+    },
+    {
+      "name": "GoogliteHoeRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_hoe_recipe"
+    },
+    {
+      "name": "GoogliteArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GoogliteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_armor_helmet_recipe"
+    },
+    {
+      "name": "GoogliteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_armor_body_recipe"
+    },
+    {
+      "name": "GoogliteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_armor_leggings_recipe"
+    },
+    {
+      "name": "GoogliteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_armor_boots_recipe"
+    },
+    {
+      "name": "GoogliteIngotRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_ingot_recipe"
+    },
+    {
+      "name": "GooglyMod",
+      "type": "tab",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googly_mod"
+    },
+    {
+      "name": "GoogliteOreLoottable",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_ore_loottable"
+    },
+    {
+      "name": "Googlium",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlium"
+    },
+    {
+      "name": "GooglyRealm",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googly_realm",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Ignition",
+      "type": "enchantment",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignition"
+    },
+    {
+      "name": "IgnitionProcedure",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignition_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GooglyBiome",
+      "type": "biome",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googly_biome"
+    },
+    {
+      "name": "LifeSteal",
+      "type": "enchantment",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal"
+    },
+    {
+      "name": "LifestealProcedure",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lifesteal_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Plaguebringer",
+      "type": "enchantment",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plaguebringer"
+    },
+    {
+      "name": "PlaguebringerProcedure",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plaguebringer_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlaguebringerScythe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plaguebringer_scythe"
+    },
+    {
+      "name": "StrangeMatterProcedure",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_matter_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkRuby",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby"
+    },
+    {
+      "name": "DarkRubyOre",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby_ore"
+    },
+    {
+      "name": "DarkRubyBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby_block"
+    },
+    {
+      "name": "DarkRubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby_ore_block_recipe"
+    },
+    {
+      "name": "DarkRubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby_block_ore_recipe"
+    },
+    {
+      "name": "AncientTablet",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_tablet"
+    },
+    {
+      "name": "RunicTabletRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runic_tablet_recipe"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block_recipe"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block_ore_recipe"
+    },
+    {
+      "name": "DarkRubyRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby_recipe"
+    },
+    {
+      "name": "GoogleshBlock",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlesh_block"
+    },
+    {
+      "name": "GoogleshBlockRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlesh_block_recipe"
+    },
+    {
+      "name": "GoogleshBlockGoogleshRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlesh_block_googlesh_recipe"
+    },
+    {
+      "name": "GooglitePicikaxeSmith",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_picikaxe_smith"
+    },
+    {
+      "name": "GoogliteSwordSmithing",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_sword_smithing"
+    },
+    {
+      "name": "GoogliteAxeSmithing",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_axe_smithing"
+    },
+    {
+      "name": "GoogliteHoeSmithing",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_hoe_smithing"
+    },
+    {
+      "name": "GoogliteShovelSmithing",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googlite_shovel_smithing"
+    },
+    {
+      "name": "RubyLoot",
+      "type": "loottable",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_loot"
+    },
+    {
+      "name": "DarkRubyLoot",
+      "type": "loottable",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruby_loot"
+    },
+    {
+      "name": "StrangeChestGui",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_chest_gui"
+    },
+    {
+      "name": "StrangeChestProcedure",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_chest_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrangeChest",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_chest"
+    },
+    {
+      "name": "StrangeDirt",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_dirt"
+    },
+    {
+      "name": "StrangeStone",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_stone"
+    },
+    {
+      "name": "StrangeWood",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_wood"
+    },
+    {
+      "name": "StrangeLeaves",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_leaves"
+    },
+    {
+      "name": "StrangeWoodBlock",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_wood_block"
+    },
+    {
+      "name": "GooglyEnterProcedure",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "googly_enter_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.googlymodtest.googlite_hoe": "Googlite Hoe",
+      "item.googlymod.googlite_shovel": "Googlite Shovel",
+      "block.googlymodtest.googlite_block": "Block of Googlite",
+      "block.googlymod.googlite_block": "Block of Googlite",
+      "item.googlymodtest.googlesh": "Googlesh",
+      "block.googlymod.ruby_ore": "Ruby Ore",
+      "enchantment.googlymod.plaguebringer": "Plaguebringer",
+      "item.googlymod.googlite_sword": "Googlite Sword",
+      "item.googlymod.dark_ruby": "Dark Ruby",
+      "block.googlymod.googlite_ore": "Googlesh Ore",
+      "block.googlymod.strange_stone": "Strange Stone",
+      "item.googlymodtest.googlite_pickaxe": "Googlite Pickaxe",
+      "item.googlymod.googlite_axe": "Googlite Axe",
+      "item.googlymodtest.googlium_bucket": "Googlium Bucket",
+      "block.googlymod.strange_dirt": "Strange Dirt",
+      "item.googlymod.googlite_armor_chestplate": "Googlite Chestplate",
+      "enchantment.googlymod.life_steal": "Lifesteal",
+      "block.googlymod.strange_wood_block": "Strange Wood Block",
+      "block.googlymod.ruby_block": "Block of Ruby",
+      "item.googlymodtest.googlite_armor_chestplate": "Googlite Chestplate",
+      "item.googlymod.ancient_tablet": "Ancient Tablet",
+      "block.googlymod.dark_ruby_block": "Dark Ruby Block",
+      "item.googlymod.googlite_ingot": "Googlite",
+      "item.googlymodtest.googlite_sword": "Googlite Sword",
+      "item.googlymod.googlite_armor_boots": "Googlite Boots",
+      "item.googlymod.googlium_bucket": "Googlium Bucket",
+      "item.googlymod.ruby": "Ruby",
+      "block.googlymod.strange_wood": "Strange Wood",
+      "item.googlymod.googly_realm": "Runic Tablet",
+      "item.googlymod.googlite_armor_leggings": "Googlite Leggings",
+      "itemGroup.tabgoogly_mod": "Googly Mod",
+      "item.googlymod.googlite_armor_helmet": "Googlite Helmet",
+      "biome.googlymod.googly_biome": "Googly Biome",
+      "enchantment.googlymod.ignition": "Ignition",
+      "item.googlymodtest.googlite_axe": "Googlite Axe",
+      "item.googlymodtest.googlite_armor_leggings": "Googlite Leggings",
+      "item.googlymod.googlite_pickaxe": "Googlite Pickaxe",
+      "block.googlymod.strange_leaves": "Strange Leaves",
+      "item.googlymodtest.googlite_ingot": "Googlite",
+      "block.googlymod.strange_chest": "Strange Chest",
+      "block.googlymodtest.googlite_ore": "Googlesh Ore",
+      "item.googlymodtest.googlite_shovel": "Googlite Shovel",
+      "fluid.googlium": "Googlium",
+      "item.googlymodtest.googly_realm": "Googly Igniter",
+      "item.googlymod.plaguebringer_scythe": "Plaguebringer Scythe",
+      "item.googlymod.googlesh": "Googlesh",
+      "block.googlymod.dark_ruby_ore": "Dark Ruby Ore",
+      "block.googlymod.googlesh_block": "Googlesh Block",
+      "item.googlymodtest.googlite_armor_helmet": "Googlite Helmet",
+      "item.googlymod.googlite_hoe": "Googlite Hoe",
+      "item.googlymodtest.googlite_armor_boots": "Googlite Boots"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "googlymod",
+    "modName": "The Googly Mod",
+    "version": "0.0.3",
+    "description": "The Googly Realm",
+    "author": "Icarus404, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "credits": "Made with the wondrous help of me, myself, and I.",
+    "modElementsPackage": "net.mcreator.googlymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

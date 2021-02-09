@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "fluid",
+  "definition": {
+    "name": "Googlium",
+    "textureStill": "googliumstill1",
+    "textureFlowing": "googliumflow",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:GooglyMod"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:GooglyRealm"
+    ],
+    "restrictionBiomes": []
+  }
+}

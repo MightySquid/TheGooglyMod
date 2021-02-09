@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "googlymod:blocks/end_stone",
+    "particle": "googlymod:blocks/end_stone"
+  }
+}

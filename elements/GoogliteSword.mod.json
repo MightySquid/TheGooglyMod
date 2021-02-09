@@ -1,0 +1,39 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "googlitesword",
+    "customModelName": "Normal",
+    "name": "Googlite Sword",
+    "specialInfo": [
+      "The sword glows with an ethereal light"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GooglyMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.8,
+    "enchantability": 18,
+    "damageVsEntity": 10.0,
+    "usageCount": 4002,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:GoogliteIngot"
+      },
+      {
+        "value": "CUSTOM:GoogliteSword"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "LifestealProcedure"
+    }
+  }
+}

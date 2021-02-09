@@ -1,0 +1,13 @@
+{
+  "group": "googlymod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "googlymod:googlite_block"
+    }
+  ],
+  "result": {
+    "item": "googlymod:googlite_ingot",
+    "count": 9
+  }
+}

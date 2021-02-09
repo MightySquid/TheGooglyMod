@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "googlymod:blocks/googlystone",
+    "up": "googlymod:blocks/googlystone",
+    "north": "googlymod:blocks/googlystone",
+    "east": "googlymod:blocks/googlystone",
+    "south": "googlymod:blocks/googlystone",
+    "west": "googlymod:blocks/googlystone",
+    "particle": "googlymod:blocks/googlystone"
+  }
+}

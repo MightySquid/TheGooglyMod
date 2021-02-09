@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "googlitehelmet",
+    "enableBody": true,
+    "textureBody": "googlitechestplate",
+    "enableLeggings": true,
+    "textureLeggings": "googliteleggings",
+    "enableBoots": true,
+    "textureBoots": "googliteboots",
+    "creativeTab": {
+      "value": "CUSTOM:GooglyMod"
+    },
+    "armorTextureFile": "googlite",
+    "helmetName": "Googlite Helmet",
+    "bodyName": "Googlite Chestplate",
+    "leggingsName": "Googlite Leggings",
+    "bootsName": "Googlite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 15,
+    "damageValueHelmet": 6,
+    "damageValueBody": 13,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 5,
+    "enchantability": 19,
+    "toughness": 4.0,
+    "knockbackResistance": 0.19999999999999998,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GoogliteIngot"
+      }
+    ]
+  }
+}

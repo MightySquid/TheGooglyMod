@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Googly Mod",
+    "icon": {
+      "value": "CUSTOM:GoogliteIngot"
+    },
+    "showSearch": false
+  }
+}

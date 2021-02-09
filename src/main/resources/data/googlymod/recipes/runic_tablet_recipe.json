@@ -1,0 +1,25 @@
+{
+  "group": "googlymod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "googlymod:dark_ruby"
+    },
+    {
+      "item": "googlymod:dark_ruby"
+    },
+    {
+      "item": "googlymod:ancient_tablet"
+    },
+    {
+      "item": "googlymod:dark_ruby"
+    },
+    {
+      "item": "googlymod:dark_ruby"
+    }
+  ],
+  "result": {
+    "item": "googlymod:googly_realm",
+    "count": 1
+  }
+}

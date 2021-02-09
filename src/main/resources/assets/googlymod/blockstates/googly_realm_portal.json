@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "googlymod:block/googly_realm_portal_ew"
+    },
+    "axis=x": {
+      "model": "googlymod:block/googly_realm_portal_ns"
+    }
+  }
+}
