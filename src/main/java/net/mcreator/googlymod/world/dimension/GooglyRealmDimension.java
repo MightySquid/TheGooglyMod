@@ -57,7 +57,7 @@ import net.minecraft.block.AbstractBlock;
 
 import net.mcreator.googlymod.procedures.GooglyEnterProcedureProcedure;
 import net.mcreator.googlymod.item.GooglyRealmItem;
-import net.mcreator.googlymod.block.StrangeDirtBlock;
+import net.mcreator.googlymod.block.StrangeStoneBlock;
 import net.mcreator.googlymod.block.DarkRubyBlockBlock;
 import net.mcreator.googlymod.GooglymodModElements;
 
@@ -93,10 +93,10 @@ public class GooglyRealmDimension extends GooglymodModElements.ModElement {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(StrangeDirtBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
+						.add(StrangeStoneBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(StrangeDirtBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
+						.add(StrangeStoneBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

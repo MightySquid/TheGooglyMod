@@ -696,6 +696,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "StrangePod",
+      "type": "structure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_pod"
     }
   ],
   "variable_elements": [],
@@ -711,7 +720,7 @@
       "enchantment.googlymod.plaguebringer": "Plaguebringer",
       "item.googlymod.googlite_sword": "Googlite Sword",
       "item.googlymod.dark_ruby": "Dark Ruby",
-      "block.googlymod.googlite_ore": "Googlesh Ore",
+      "block.googlymod.googlite_ore": "Strange Ore",
       "block.googlymod.strange_stone": "Strange Stone",
       "item.googlymodtest.googlite_pickaxe": "Googlite Pickaxe",
       "item.googlymod.googlite_axe": "Googlite Axe",

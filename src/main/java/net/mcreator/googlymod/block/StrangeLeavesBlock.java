@@ -36,9 +36,8 @@ public class StrangeLeavesBlock extends GooglymodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1.05f, 10f).setLightLevel(s -> 1)
-					.harvestLevel(2).harvestTool(ToolType.HOE).slipperiness(0.7f).setNeedsPostProcessing((bs, br, bp) -> true)
-					.setEmmisiveRendering((bs, br, bp) -> true));
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1.05f, 10f).setLightLevel(s -> 0)
+					.harvestLevel(2).harvestTool(ToolType.HOE).slipperiness(0.7f));
 			setRegistryName("strange_leaves");
 		}
 

@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:StrangeDirt"
+      "value": "CUSTOM:StrangeStone"
     },
     "fluidBlock": {
       "value": "CUSTOM:Googlium"
