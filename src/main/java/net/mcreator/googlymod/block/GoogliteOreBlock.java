@@ -113,6 +113,6 @@ public class GoogliteOreBlock extends GooglymodModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 12)).range(15).square().func_242731_b(12));
+		}, block.getDefaultState(), 2)).range(15).square().func_242731_b(1));
 	}
 }

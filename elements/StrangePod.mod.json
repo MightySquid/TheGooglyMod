@@ -5,17 +5,21 @@
     "structure": "strangepodforreal",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 5000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
-    "spawnLocation": "Underground",
-    "spawnHeightOffset": 0,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -3,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
       "End"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.END_STONE"
+      }
+    ],
     "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
