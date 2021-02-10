@@ -2,16 +2,16 @@
   "_fv": 15,
   "_type": "structure",
   "definition": {
-    "structure": "strangepodforreal",
+    "structure": "ancientpod",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 5000,
+    "spawnProbability": 10000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": -3,
+    "spawnHeightOffset": 0,
     "spawnXOffset": 0,
-    "spawnZOffset": 0,
+    "spawnZOffset": -3,
     "spawnWorldTypes": [
       "End"
     ],
