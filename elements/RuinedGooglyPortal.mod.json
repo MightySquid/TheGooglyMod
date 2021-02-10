@@ -2,25 +2,23 @@
   "_fv": 15,
   "_type": "structure",
   "definition": {
-    "structure": "ancientpod",
+    "structure": "googlyruinedportal",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 50000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
     "spawnXOffset": 0,
-    "spawnZOffset": -4,
+    "spawnZOffset": 0,
     "spawnWorldTypes": [
+      "Surface",
+      "Nether",
       "End"
     ],
-    "restrictionBlocks": [
-      {
-        "value": "Blocks.END_STONE"
-      }
-    ],
+    "restrictionBlocks": [],
     "restrictionBiomes": [],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }
 }

@@ -73,7 +73,7 @@ public class StrangeStoneBlock extends GooglymodModElements.ModElement {
 					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
 					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
 					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
-					world.addParticle(ParticleTypes.DRIPPING_OBSIDIAN_TEAR, d0, d1, d2, d3, d4, d5);
+					world.addParticle(ParticleTypes.ENCHANT, d0, d1, d2, d3, d4, d5);
 				}
 		}
 	}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "googlymod:blocks/crackeddarkrubyblock",
+    "up": "googlymod:blocks/crackeddarkrubyblock",
+    "north": "googlymod:blocks/crackeddarkrubyblock",
+    "east": "googlymod:blocks/crackeddarkrubyblock",
+    "south": "googlymod:blocks/crackeddarkrubyblock",
+    "west": "googlymod:blocks/crackeddarkrubyblock",
+    "particle": "googlymod:blocks/crackeddarkrubyblock"
+  }
+}

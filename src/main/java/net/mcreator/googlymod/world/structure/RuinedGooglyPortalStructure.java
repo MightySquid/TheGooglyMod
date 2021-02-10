@@ -23,17 +23,15 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
 
 import net.mcreator.googlymod.GooglymodModElements;
 
 import java.util.Random;
 
 @GooglymodModElements.ModElement.Tag
-public class StrangePodStructure extends GooglymodModElements.ModElement {
-	public StrangePodStructure(GooglymodModElements instance) {
-		super(instance, 80);
+public class RuinedGooglyPortalStructure extends GooglymodModElements.ModElement {
+	public RuinedGooglyPortalStructure(GooglymodModElements instance) {
+		super(instance, 84);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -46,35 +44,35 @@ public class StrangePodStructure extends GooglymodModElements.ModElement {
 				int ck = (pos.getZ() >> 4) << 4;
 				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 				boolean dimensionCriteria = false;
+				if (dimensionType == World.OVERWORLD)
+					dimensionCriteria = true;
+				if (dimensionType == World.THE_NETHER)
+					dimensionCriteria = true;
 				if (dimensionType == World.THE_END)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 10000) {
+				if ((random.nextInt(1000000) + 1) <= 50000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
 						int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
 						j -= 1;
-						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
-						boolean blockCriteria = false;
-						if (blockAt.getBlock() == Blocks.END_STONE.getDefaultState().getBlock())
-							blockCriteria = true;
-						if (!blockCriteria)
-							continue;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + -4);
+						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = world.getWorld().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("googlymod", "ancientpod"));
+								.getTemplateDefaulted(new ResourceLocation("googlymod", "googlyruinedportal"));
 						if (template == null)
 							return false;
-						template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-								.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false), random);
+						template.func_237144_a_(world, spawnTo,
+								new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+										.addProcessor(BlockIgnoreStructureProcessor.AIR_AND_STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
+								random);
 					}
 				}
 				return true;

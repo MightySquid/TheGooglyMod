@@ -705,6 +705,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "strange_pod"
+    },
+    {
+      "name": "CrackedDarkRubyBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_dark_ruby_block"
+    },
+    {
+      "name": "Portalloot",
+      "type": "loottable",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portalloot"
+    },
+    {
+      "name": "RuinedGooglyPortal",
+      "type": "structure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_googly_portal"
     }
   ],
   "variable_elements": [],
@@ -738,6 +765,7 @@
       "item.googlymod.googlite_armor_boots": "Googlite Boots",
       "item.googlymod.googlium_bucket": "Googlium Bucket",
       "item.googlymod.ruby": "Ruby",
+      "block.googlymod.cracked_dark_ruby_block": "Cracked Dark Ruby Block",
       "block.googlymod.strange_wood": "Strange Wood",
       "item.googlymod.googly_realm": "Runic Tablet",
       "item.googlymod.googlite_armor_leggings": "Googlite Leggings",
@@ -767,7 +795,7 @@
   "workspaceSettings": {
     "modid": "googlymod",
     "modName": "The Googly Mod",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "The Googly Realm",
     "author": "Icarus404, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -779,7 +807,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.4",
-    "credits": "Made with the wondrous help of me, myself, and I.",
+    "credits": "The wondrous mod of the wondrous Googly Realm. Tread carefully.",
     "modElementsPackage": "net.mcreator.googlymod",
     "lockBaseModFiles": false
   },

@@ -2,16 +2,16 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "googlystone",
-    "textureTop": "googlystone",
-    "textureLeft": "googlystone",
-    "textureFront": "googlystone",
-    "textureRight": "googlystone",
-    "textureBack": "googlystone",
+    "texture": "crackeddarkrubyblock",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -26,10 +26,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Strange Stone",
+    "name": "Cracked Dark Ruby Block",
     "specialInfo": [],
-    "hardness": 3.85,
-    "resistance": 61.5,
+    "hardness": 1.25,
+    "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -46,7 +46,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -60,18 +60,18 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.7,
+    "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
-    "luminance": 1,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
-    "spawnParticles": true,
+    "breakHarvestLevel": 4,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "ENCHANTMENT_TABLE"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
