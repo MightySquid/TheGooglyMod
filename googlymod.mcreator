@@ -732,6 +732,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ruined_googly_portal"
+    },
+    {
+      "name": "StrangeActualDirt",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strange_actual_dirt"
     }
   ],
   "variable_elements": [],
@@ -756,6 +765,7 @@
       "item.googlymod.googlite_armor_chestplate": "Googlite Chestplate",
       "enchantment.googlymod.life_steal": "Lifesteal",
       "block.googlymod.strange_wood_block": "Strange Wood Block",
+      "block.googlymod.strange_actual_dirt": "Strange Actual Dirt",
       "block.googlymod.ruby_block": "Block of Ruby",
       "item.googlymodtest.googlite_armor_chestplate": "Googlite Chestplate",
       "item.googlymod.ancient_tablet": "Ancient Tablet",
