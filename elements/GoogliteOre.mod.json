@@ -99,11 +99,7 @@
     "spawnWorldTypes": [
       "CUSTOM:GooglyRealm"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:GooglyBiome"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "CUSTOM:StrangeStone"
