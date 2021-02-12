@@ -8,12 +8,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
-import net.minecraft.item.ShearsItem;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.block.BlockState;
 
 import net.mcreator.googlymod.procedures.MoonlightProcedureProcedure;
 import net.mcreator.googlymod.itemgroup.GooglyModItemGroup;
@@ -33,17 +35,31 @@ public class MoonlightDaggerItem extends GooglymodModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ShearsItem(new Item.Properties().group(GooglyModItemGroup.tab).maxDamage(3000).isImmuneToFire()) {
-			@Override
-			public int getItemEnchantability() {
-				return 20;
+		elements.items.add(() -> new AxeItem(new IItemTier() {
+			public int getMaxUses() {
+				return 3000;
 			}
 
-			@Override
-			public float getDestroySpeed(ItemStack stack, BlockState block) {
+			public float getEfficiency() {
 				return 4f;
 			}
 
+			public float getAttackDamage() {
+				return 5.5f;
+			}
+
+			public int getHarvestLevel() {
+				return 3;
+			}
+
+			public int getEnchantability() {
+				return 20;
+			}
+
+			public Ingredient getRepairMaterial() {
+				return Ingredient.fromStacks(new ItemStack(Items.NETHERITE_INGOT, (int) (1)));
+			}
+		}, 1, 0f, new Item.Properties().group(GooglyModItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);

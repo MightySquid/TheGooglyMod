@@ -50,7 +50,7 @@ public class GoogliteSwordItem extends GooglymodModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 18;
+				return 17;
 			}
 
 			public Ingredient getRepairMaterial() {

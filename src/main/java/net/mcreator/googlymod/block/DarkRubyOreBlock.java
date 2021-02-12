@@ -75,6 +75,6 @@ public class DarkRubyOreBlock extends GooglymodModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 3)).range(35).square().func_242731_b(4));
+		}, block.getDefaultState(), 4)).range(40).square().func_242731_b(7));
 	}
 }

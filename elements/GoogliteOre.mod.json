@@ -105,9 +105,9 @@
         "value": "CUSTOM:StrangeStone"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 15
+    "maxGenerateHeight": 24
   }
 }

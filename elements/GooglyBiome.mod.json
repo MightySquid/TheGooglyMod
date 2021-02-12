@@ -47,7 +47,7 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "NETHER",
     "parent": {
       "value": "CUSTOM:GooglyBiome"
     },
@@ -55,7 +55,7 @@
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "WARM",
+    "biomeType": "COOL",
     "spawnBiome": false,
     "biomeWeight": 1024,
     "biomeDictionaryTypes": [],
@@ -69,7 +69,7 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "treesPerChunk": 4,
-    "vanillaTreeType": "Big trees",
+    "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
     "maxWaterDepth": 1,
@@ -98,8 +98,7 @@
     "oceanRuinType": "NONE",
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "Lakes"
+      "Ores"
     ],
     "spawnEntries": []
   }
