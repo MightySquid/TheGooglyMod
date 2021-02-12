@@ -1,0 +1,38 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "moonlightdagger",
+    "customModelName": "Normal",
+    "name": "Starlight Dagger",
+    "specialInfo": [
+      "Reflects light in a strange way",
+      "and glows like a crescent moon.",
+      "Gives buffs on crits"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GooglyMod"
+    },
+    "toolType": "Shears",
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 20,
+    "damageVsEntity": 7.5,
+    "usageCount": 3000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "MoonlightProcedure"
+    }
+  }
+}

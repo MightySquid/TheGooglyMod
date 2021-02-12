@@ -9,7 +9,14 @@
     "maxLevel": 3,
     "damageModifier": 0,
     "compatibleEnchantments": [],
-    "compatibleItems": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:GoogliteSword"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      }
+    ],
     "isTreasureEnchantment": false,
     "isCurse": false,
     "isAllowedOnBooks": true

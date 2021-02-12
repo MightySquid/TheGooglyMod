@@ -315,12 +315,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "sourceentity",
+            "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       }
@@ -741,6 +737,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "strange_actual_dirt"
+    },
+    {
+      "name": "MoonlightDagger",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonlight_dagger"
+    },
+    {
+      "name": "MoonlightProcedure",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonlight_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonlightDaggerRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonlight_dagger_recipe"
     }
   ],
   "variable_elements": [],
@@ -750,6 +781,7 @@
       "item.googlymodtest.googlite_hoe": "Googlite Hoe",
       "item.googlymod.googlite_shovel": "Googlite Shovel",
       "block.googlymodtest.googlite_block": "Block of Googlite",
+      "item.googlymod.moonlight_dagger": "Starlight Dagger",
       "block.googlymod.googlite_block": "Block of Googlite",
       "item.googlymodtest.googlesh": "Googlesh",
       "block.googlymod.ruby_ore": "Ruby Ore",

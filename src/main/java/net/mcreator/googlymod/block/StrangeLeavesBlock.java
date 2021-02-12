@@ -12,6 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -34,10 +35,10 @@ public class StrangeLeavesBlock extends GooglymodModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(GooglyModItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1.05f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(2).harvestTool(ToolType.HOE).slipperiness(0.7f));
+					.harvestLevel(2).harvestTool(ToolType.HOE).slipperiness(0.7f).notSolid());
 			setRegistryName("strange_leaves");
 		}
 

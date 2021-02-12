@@ -54,7 +54,7 @@ public class RuinedGooglyPortalStructure extends GooglymodModElements.ModElement
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 5000) {
+				if ((random.nextInt(1000000) + 1) <= 2000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -70,6 +70,10 @@ public class RuinedGooglyPortalStructure extends GooglymodModElements.ModElement
 						if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
 							blockCriteria = true;
 						if (blockAt.getBlock() == Blocks.SAND.getDefaultState().getBlock())
+							blockCriteria = true;
+						if (blockAt.getBlock() == Blocks.GRAVEL.getDefaultState().getBlock())
+							blockCriteria = true;
+						if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 							blockCriteria = true;
 						if (!blockCriteria)
 							continue;

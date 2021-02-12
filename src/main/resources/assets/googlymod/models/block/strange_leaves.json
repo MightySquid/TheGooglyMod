@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "googlymod:blocks/strangeleaves",
-    "up": "googlymod:blocks/strangeleaves",
-    "north": "googlymod:blocks/strangeleaves",
-    "east": "googlymod:blocks/strangeleaves",
-    "south": "googlymod:blocks/strangeleaves",
-    "west": "googlymod:blocks/strangeleaves",
+    "all": "googlymod:blocks/strangeleaves",
     "particle": "googlymod:blocks/strangeleaves"
   }
 }
